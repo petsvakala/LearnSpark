@@ -83,3 +83,6 @@ spark_log(sc, filter = "sparklyr")
 
 # disconnect Spark
 spark_disconnect(sc)
+
+#disconnect all
+spark_disconnect_all()
